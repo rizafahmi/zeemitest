@@ -11,15 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150801150659) do
+ActiveRecord::Schema.define(version: 20150801153956) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "keywords", force: :cascade do |t|
     t.string   "keywords"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
+    t.integer  "adwords_top"
+    t.integer  "adwords_right"
+    t.integer  "adwords_total"
+    t.integer  "non_adwords_results"
+    t.integer  "total_number_of_links"
+    t.integer  "total_search_results"
+    t.text     "contents"
   end
 
 end
