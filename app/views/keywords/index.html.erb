@@ -4,9 +4,13 @@
 
 <h2>Import Keyword</h2>
 <fieldset>
+<% if current_user %>
 <%= form_tag import_keywords_path, multipart: true do %>
   <%= file_field_tag :file %>
   <%= submit_tag "Import" %>
+<% end %>
+<% else %>
+  You need to login for import keyword. Click here to <%= link_to "Log in", log_in_path %> or <%= link_to "Sign up", sign_up_path %>.
 <% end %>
 </fieldset>
 

@@ -17,3 +17,7 @@
   width: 100%;
   @include background(red);
 }
+
+.log-in {
+  @include button(simple, orange)
+}

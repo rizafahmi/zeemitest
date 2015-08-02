@@ -288,6 +288,25 @@ header.navigation {
     padding: 0.75em 1em;
     text-transform: uppercase;
   }
+  .log-in {
+    @include button(flat, yellow);
+    display: inline;
+    float: right;
+    font-size: 0.8em;
+    margin-top: 1em;
+    padding: 0.75em 1em;
+    text-transform: uppercase;
+  }
+
+  .log-out {
+    @include button(flat, red);
+    display: inline;
+    float: right;
+    font-size: 0.8em;
+    margin-top: 1em;
+    padding: 0.75em 1em;
+    text-transform: uppercase;
+  }
 
   // Search bar
 
