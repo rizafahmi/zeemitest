@@ -1,3 +1,14 @@
-// Place all the styles related to the keywords controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  @include outer-container;
+}
+.show_button {
+  @include button(simple);
+}
+
+.edit_button {
+  @include button(simple, orange);
+}
+
+.delete_button {
+  @include button(simple, red);
+}
