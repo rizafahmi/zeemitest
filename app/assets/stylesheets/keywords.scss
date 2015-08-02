@@ -12,3 +12,12 @@
 .delete_button {
   @include button(simple, red);
 }
+
+.field_with_errors {
+  width: 100%;
+  @include background(red);
+}
+
+.log-in {
+  @include button(simple, orange)
+}

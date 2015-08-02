@@ -14,6 +14,7 @@ gem 'bourbon'
 gem 'bitters'
 gem 'refills'
 gem 'neat'
+gem "bcrypt", :require => "bcrypt"
 
 group :development, :test do
   gem 'byebug'

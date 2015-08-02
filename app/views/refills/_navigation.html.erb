@@ -6,7 +6,12 @@
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
 
     <div class="navigation-tools">
-      <a href="javascript:void(0)" class="sign-up">Sign Up</a>
+      <% if not current_user %>
+        <a style="margin-left: 20px" href="<%= url_for sign_up_path %>" class="sign-up">Sign Up</a> &nbsp;
+        <a href="<%= url_for log_in_path %>" class="log-in">Log In</a>
+      <% else %>
+        <a href="<%= url_for log_out_path %>" class="log-out">Log Out</a>
+      <% end %>
     </div>
   </div>
 </header>
