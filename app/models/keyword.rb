@@ -13,6 +13,10 @@ class Keyword < ActiveRecord::Base
       data['adwords_top'] = doc.css("#center_col").search("li.ads-ad").count
       data['adwords_total'] = data['adwords_top'] + data['adwords_right']
 
+      result = doc.css("#resultStats")
+      result_int = result.text.split(" ")[1].gsub(",", "").to_i
+      data['total_search_results'] = result.text
+
       Keyword.create! data
     end
   end

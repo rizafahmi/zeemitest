@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150801153956) do
+ActiveRecord::Schema.define(version: 20150802065338) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20150801153956) do
     t.integer  "adwords_total"
     t.integer  "non_adwords_results"
     t.integer  "total_number_of_links"
-    t.integer  "total_search_results"
+    t.string   "total_search_results"
     t.text     "contents"
   end
 
