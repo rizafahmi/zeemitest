@@ -2,6 +2,14 @@
 
 <h1>Listing Keywords</h1>
 
+<h2>Import Keyword</h2>
+<%= form_tag import_keywords_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+
+<br />
+
 <table>
   <thead>
     <tr>
@@ -34,10 +42,5 @@
 
 <br>
 
-<%= link_to 'New Keyword', new_keyword_path %>
+<%# <%= link_to 'New Keyword', new_keyword_path %>
 
-<h2>Import Keyword</h2>
-<%= form_tag import_keywords_path, multipart: true do %>
-  <%= file_field_tag :file %>
-  <%= submit_tag "Import" %>
-<% end %>
