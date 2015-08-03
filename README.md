@@ -34,6 +34,5 @@ And the application should provide OAuth 2 Restful JSON API.
 - [ ] h. Total number of links (all of them) on the page
 - [X] i. Total search resultsfor this keywords e.g. About 21,600,000 results (0.42 seconds).
 - [ ] j. HTML code of the page/cache of the page.
-- 
 - [ ] Create a report from the sotred information.
 - [ ] Allow user to query the stored data.
