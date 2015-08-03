@@ -22,6 +22,7 @@ And the application should provide OAuth 2 Restful JSON API.
 
 - [x] Authenticated users can upload a CSV file of keywords.
 - [ ] API for keywords entries.
+- [ ] OAUTH2 authentication
 - [X] Uploaded keywords run search on google.com automatically.
 - [ ] Each search result / keyword result page on Google store some detailed information:
 - [X] a. Number of AdWords advertisers in the top position.
