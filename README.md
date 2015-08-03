@@ -1,4 +1,4 @@
-== README
+# README
 
 This is my attempt to Zeemi technical test for developer. The app is a web app that
 will extract large amounts of data from google search results page. And then
@@ -6,7 +6,7 @@ store the data and display it in form of report page.
 Users should be authenticated to use this application.
 And the application should provide OAuth 2 Restful JSON API.
 
-=== SOME TECHNICAL REQUIREMENTS
+## SOME TECHNICAL REQUIREMENTS
 
 * Ruby version 2.1.4
 
@@ -18,7 +18,7 @@ And the application should provide OAuth 2 Restful JSON API.
 
 * URL: https://blooming-eyrie-4291.herokuapp.com/
 
-== TODO
+## TODO
 
 [] Authenticated users can upload a CSV file of keywords.
 [] API for keywords entries.
