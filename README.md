@@ -22,6 +22,16 @@ And the application should provide OAuth 2 Restful JSON API.
 
 ![API](post.png)
 
+### Keywords CSV Examples
+
+```
+keywords
+hotel sydney
+elevenia
+best hosting solutions
+hosting rails
+```
+
 
 ## TO DONE
 
