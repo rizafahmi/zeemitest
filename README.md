@@ -17,11 +17,16 @@ And the application should provide OAuth 2 Restful JSON API.
 * Front-end Framework using Bourbon, Neat, Refills and SASS.
 
 * URL: https://blooming-eyrie-4291.herokuapp.com/
+* API Endpoint: https://blooming-eyrie-4291.herokuapp.com/api/v1/
+* API for keyword entries example.
+
+![API](post.png)
+
 
 ## TO DONE
 
 - [x] Authenticated users can upload a CSV file of keywords.
-- [ ] API for keywords entries.
+- [x] API for keywords entries.
 - [ ] OAUTH2 authentication
 - [X] Uploaded keywords run search on google.com automatically.
 - [ ] Each search result / keyword result page on Google store some detailed information:
